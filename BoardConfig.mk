@@ -31,3 +31,9 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j4corelte
+
+# SHRP flags
+# Path of your SHRP Tree
+SHRP_PATH := device/samsung/j4corelte
+# Device codename
+SHRP_DEVICE_CODE := j4corelte
